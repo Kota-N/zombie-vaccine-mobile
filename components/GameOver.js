@@ -12,7 +12,7 @@ const GameOver = ({resetGame}) => {
     <View style={styles.GameOver}>
       <View style={styles.overlay}>
         <View style={styles.messageContainer}>
-          <Text style={styles.GameOverText}>Hey look at all the zombies!</Text>
+          <Text style={styles.GameOverText}>Hey, look at all the zombies!</Text>
           <TouchableWithoutFeedback onPress={resetGame}>
             <View style={styles.GameOverBtn}>
               <Text style={styles.btnText}>RESTART</Text>

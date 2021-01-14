@@ -135,7 +135,7 @@ const AnimalMenu = ({
             textAlign: 'center',
             padding: 10,
           }}>
-          An animal that eats dog food as well as saves people
+          An animal that eats dog food and also saves people
         </Text>
       )}
       <View style={styles.btnContainer}>
